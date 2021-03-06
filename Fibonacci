@@ -1,0 +1,10 @@
+a,b,sum = 0,1,0
+c = a+b
+n = int(input("Input No.of terms : "))
+print(a)
+while sum < n:
+  print(c)
+  c = b + a
+  a = b
+  b = c
+  sum += 1
